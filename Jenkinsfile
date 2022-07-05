@@ -20,7 +20,7 @@ pipeline {
         } 
 		stage('RunDASTUsingZAP') {
             steps {		
-				bat("D:\\software\\ZAP\\zap.sh -cmd -quickurl https://www.example.com -quickprogress -quickout D:\\software\\ZAP\\zap_reportOutput.html")
+				bat("C:\\Program Files\\OWASP\\Zed Attack Proxy\\zap.sh -cmd -quickurl https://www.example.com -quickprogress -quickout C:\\Program Files\\OWASP\\Zed Attack Proxy\\zap_reportOutput.html")
 		  }
         } 
     }
